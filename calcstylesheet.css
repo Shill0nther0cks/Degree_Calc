@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+h1 {
+    color: #2c3e50;
+}
+form {
+    margin-bottom: 20px;
+}
+.module-section {
+    margin-bottom: 20px;
+}
+.module-section h2 {
+    color: #34495e;
+}
+.module-section div {
+    margin-bottom: 10px;
+}
+label {
+    margin-right: 10px;
+}
+input[type="number"], input[type="text"] {
+    width: 60px;
+    margin-right: 10px;
+}
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #2980b9;
+}
+#result {
+    font-weight: bold;
+    color: #27ae60;
+}
+#borderlineModules {
+    color: #e74c3c;
+}
+#errorMessage {
+    color: #e74c3c;
+    font-weight: bold;
+}
+

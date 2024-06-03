@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OU Degree Classification Calculator</title>
+    <link rel="stylesheet" href="calcstylesheet.css">
+</head>
+<body>
+    <h1>OU Degree Classification Calculator</h1>
+    <form id="classificationForm">
+        <div class="module-section">
+            <h2>Level 2 Modules</h2>
+            <!-- Container for Level 2 modules input fields -->
+            <div id="level2Modules">
+                <div>
+                    <!-- Input for Level 2 module code -->
+                    <label>Module Code: <input type="text" name="l2Code" required></label>
+                    <!-- Input for Level 2 module credits -->
+                    <label>Credits: <input type="number" name="l2Credits" required></label>
+                    <!-- Input for Level 2 module grade -->
+                    <label>Grade (1-4): <input type="number" name="l2Grade" min="1" max="4" required></label>
+                </div>
+            </div>
+            <!-- Button to add more Level 2 modules -->
+            <button type="button" onclick="addLevel2Module()">Add Level 2 Module</button>
+        </div>
+        
+        <div class="module-section">
+            <h2>Level 3 Modules</h2>
+            <!-- Container for Level 3 modules input fields -->
+            <div id="level3Modules">
+                <div>
+                    <!-- Input for Level 3 module code -->
+                    <label>Module Code: <input type="text" name="l3Code" required></label>
+                    <!-- Input for Level 3 module credits -->
+                    <label>Credits: <input type="number" name="l3Credits" required></label>
+                    <!-- Input for Level 3 module grade -->
+                    <label>Grade (1-4): <input type="number" name="l3Grade" min="1" max="4" required></label>
+                </div>
+            </div>
+            <!-- Button to add more Level 3 modules -->
+            <button type="button" onclick="addLevel3Module()">Add Level 3 Module</button>
+        </div>
+        
+        <!-- Button to calculate the classification based on the input -->
+        <button type="button" onclick="calculateClassification()">Calculate Classification</button>
+    </form>
+    
+    <h2>Result</h2>
+    <!-- Paragraph to display the result -->
+    <p id="result"></p>
+    <!-- Paragraph to display the borderline modules breakdown -->
+    <p id="borderlineModules"></p>
+    <p id="errorMessage"></p>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+
+
