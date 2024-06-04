@@ -1,6 +1,6 @@
 
 
-# **OU Degree Classification Calculator**
+# **OU Degree Classification Calculator (Unofficial)**
 
 This project provides a web-based tool to calculate undergraduate degree classifications for 360 credit degrees at The Open University. The tool helps students determine their degree classification based on their module grades and credits, following the guidelines outlined by The Open University.
 
